@@ -1,0 +1,27 @@
+
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "name": "Chung_Vinh",
+    
+}
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "phamtrungvinh642002@gmail.com",
+    "password": "vinh642002"
+    
+}
+exp://192.168.1.10:8081
+
+###
+GET http://localhost:3000/verify/79c516e5e01c933d2f403a24ca6c1e94515a1ef5
+
+
+###
+GET http://localhost:3000/user/64e627e3d8f247de350eb015
